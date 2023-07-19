@@ -177,7 +177,7 @@ docker exec -it container_name /bin/bash
 - ...
 
 ## 接口
-   见[wiki](./wiki/接口文档)
+   见[wiki](https://github.com/jiechengyang/open-quarraying-ai-api/wiki/%E6%8E%A5%E5%8F%A3%E6%96%87%E6%A1%A3)
 ## 问题
 - 图片地址
   1. 在没有反向代理的情况下，图片地址默认是客户端请求的站点地址：`{scheme}://{host}:{?port}/uploads/`
