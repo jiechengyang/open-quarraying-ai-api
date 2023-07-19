@@ -259,6 +259,5 @@ quarrying_ai_api/
  - [quarrying](https://github.com/quarrying)
  - ...
 
-## 联系合作
- - 合作：kefu@boyuntong.com
- - 问题：yangjiecheng@boyuntong.com
+## 交流
+ ...
