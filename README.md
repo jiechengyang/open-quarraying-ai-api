@@ -173,6 +173,8 @@ docker exec -it container_name /bin/bash
 - 接入通用人脸识别
 - 优化合并 植物、昆虫、名人人像识别代码目录
 - 构建docker-compose
+- 集成管理后台
+- ...
 
 ## 接口
    见wiki
@@ -255,7 +257,7 @@ quarrying_ai_api/
 - [采石匠官网](https://www.quarryman.cn/insect)
 ## 站在巨人的肩膀
  - [quarrying](https://github.com/quarrying)
- ...
+ - ...
 
 ## 联系合作
  - 合作：kefu@boyuntong.com
