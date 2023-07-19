@@ -1,0 +1,58 @@
+version: "3"
+
+services:
+  plant_insect_ai2:
+    # build-依赖当前目录下的 Dockerfile 进行构建
+    # build：指定了构建服务的配置。
+    # context: .：表示构建上下文为当前目录，即 Dockerfile 所在的目录。
+    # args:：传递构建参数给 Dockerfile
+    # build:
+    #   context: .
+    #   args:
+    #     db_password: Aa123456
+    #     db_name: byt_plant_insect_ai
+    image: python:3.10
+    ports:
+      - "13535:3535"
+    # volumes:
+    #   - /var/lib/mysql
+    #   - /var/log/mysql
+    #   - /var/log/supervisor
+    #   - /plant_insect_ai/public/uploads
+    environment:
+      MYSQL_ROOT_PASSWORD: Aa123456
+      MYSQL_DB_NAME: byt_plant_insect_ai
+    # entrypoint: /docker-entrypoint.sh
+    command: >
+      bash -c "
+      while true
+        do
+          echo 1
+        done
+      "
+
+  mysql2:
+    image: mariadb:latest
+    command: >
+      bash -c "
+        /usr/bin/mysqld --initialize --datadir=/var/lib/mysql;
+        /usr/bin/mysqld &
+        sleep 10;
+        mysql -u root -p${MYSQL_ROOT_PASSWORD} -e 'CREATE DATABASE IF NOT EXISTS ${MYSQL_DATABASE};';
+        mysql -u root -p${MYSQL_ROOT_PASSWORD} ${MYSQL_DATABASE} < /plant_insect_ai.sql;
+        while true; do sleep 3600; done"
+    restart: always
+    environment:
+      - MYSQL_USER=root
+      - MYSQL_ROOT_PASSWORD=Aa123456
+      - MYSQL_PASSWORD=Aa123456
+      - MYSQL_DATABASE=byt_plant_insect_ai
+      - TZ=Asia/Shanghai
+    ports:
+      - "13306:3306"
+    volumes:
+      - ./private/mysql/db/data:/var/lib/mysql
+      - ./private/mysql/db/log:/var/log/mysql
+      - ./private/mysql/db/run:/var/run/mysqld
+      - ./private/mysql/my.cnf:/etc/mysql/my.cnf
+      - /Users/mac/src/py-app/plant_insect_ai_api/backup/plant_insect_ai.sql:/plant_insect_ai.sql

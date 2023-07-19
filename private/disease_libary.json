@@ -1,0 +1,278 @@
+[
+  {
+    "crop_name": "大豆",
+    "crop_code": "dadou",
+    "disease_name": "大豆根腐病",
+    "disease_code": "dadou_genfubing"
+  },
+  {
+    "crop_name": "大豆",
+    "crop_code": "dadou",
+    "disease_name": "大豆花叶病毒病",
+    "disease_code": "dadou_huayebingdubing"
+  },
+  {
+    "crop_name": "大豆",
+    "crop_code": "dadou",
+    "disease_name": "大豆细菌性斑疹病",
+    "disease_code": "dadou_xijunxingbanzhenbing"
+  },
+  {
+    "crop_name": "水稻",
+    "crop_code": "shuidao",
+    "disease_name": "稻曲病",
+    "disease_code": "shuidao_daoqubing"
+  },
+  {
+    "crop_name": "水稻",
+    "crop_code": "shuidao",
+    "disease_name": "稻瘟病",
+    "disease_code": "shuidao_daowenbing"
+  },
+  {
+    "crop_name": "水稻",
+    "crop_code": "shuidao",
+    "disease_name": "水稻白叶枯病",
+    "disease_code": "shuidao_baiyekubing"
+  },
+  {
+    "crop_name": "水稻",
+    "crop_code": "shuidao",
+    "disease_name": "水稻胡麻斑病",
+    "disease_code": "shuidao_humabanbing"
+  },
+  {
+    "crop_name": "水稻",
+    "crop_code": "shuidao",
+    "disease_name": "水稻纹枯病",
+    "disease_code": "shuidao_wenkubing"
+  },
+  {
+    "crop_name": "水稻",
+    "crop_code": "shuidao",
+    "disease_name": "水稻细菌性条斑病",
+    "disease_code": "shuidao_xijunxingtiaobanbing"
+  },
+  {
+    "crop_name": "小麦",
+    "crop_code": "xiaomai",
+    "disease_name": "小麦白粉病",
+    "disease_code": "xiaomai_baifenbing"
+  },
+  {
+    "crop_name": "小麦",
+    "crop_code": "xiaomai",
+    "disease_name": "小麦赤霉病",
+    "disease_code": "xiaomai_chimeibing"
+  },
+  {
+    "crop_name": "小麦",
+    "crop_code": "xiaomai",
+    "disease_name": "小麦梭条斑花叶病",
+    "disease_code": "xiaomai_suotiaobanhuayebing"
+  },
+  {
+    "crop_name": "小麦",
+    "crop_code": "xiaomai",
+    "disease_name": "小麦雪霉叶枯病",
+    "disease_code": "xiaomai_xuemeiyekubing"
+  },
+  {
+    "crop_name": "小麦",
+    "crop_code": "xiaomai",
+    "disease_name": "小麦叶锈病",
+    "disease_code": "xiaomai_yexiubing"
+  },
+  {
+    "crop_name": "玉米",
+    "crop_code": "yumi",
+    "disease_name": "玉米大斑病",
+    "disease_code": "yumi_dabanbing"
+  },
+  {
+    "crop_name": "玉米",
+    "crop_code": "yumi",
+    "disease_name": "玉米南方锈病",
+    "disease_code": "yumi_nanfangxiubing"
+  },
+  {
+    "crop_name": "玉米",
+    "crop_code": "yumi",
+    "disease_name": "玉米小斑病",
+    "disease_code": "yumi_xiaobanbing"
+  },
+  {
+    "crop_name": "玉米",
+    "crop_code": "yumi",
+    "disease_name": "玉米锈病",
+    "disease_code": "yumi_xiubing"
+  },
+  {
+    "crop_name": "黄瓜",
+    "crop_code": "huanggua",
+    "disease_name": "黄瓜靶斑病",
+    "disease_code": "huanggua_babanbing"
+  },
+  {
+    "crop_name": "黄瓜",
+    "crop_code": "huanggua",
+    "disease_name": "黄瓜白粉病",
+    "disease_code": "huanggua_baifenbing"
+  },
+  {
+    "crop_name": "黄瓜",
+    "crop_code": "huanggua",
+    "disease_name": "黄瓜霜霉病",
+    "disease_code": "huanggua_shuangmeibing"
+  },
+  {
+    "crop_name": "黄瓜",
+    "crop_code": "huanggua",
+    "disease_name": "黄瓜炭疽病",
+    "disease_code": "huanggua_tanjubing"
+  },
+  {
+    "crop_name": "葡萄",
+    "crop_code": "putao",
+    "disease_name": "葡萄黑霉病",
+    "disease_code": "putaohei_meibing"
+  },
+  {
+    "crop_name": "葡萄",
+    "crop_code": "putao",
+    "disease_name": "葡萄花叶病毒病",
+    "disease_code": "putao_huayebingdubing"
+  },
+  {
+    "crop_name": "葡萄",
+    "crop_code": "putao",
+    "disease_name": "葡萄霜霉病",
+    "disease_code": "putao_shuangmeibing"
+  },
+  {
+    "crop_name": "西瓜",
+    "crop_code": "xigua",
+    "disease_name": "西瓜病毒病",
+    "disease_code": "xigua_bingdubing"
+  },
+  {
+    "crop_name": "西瓜",
+    "crop_code": "xigua",
+    "disease_name": "西瓜炭疽病",
+    "disease_code": "xigua_tanjubing"
+  },
+  {
+    "crop_name": "豇豆",
+    "crop_code": "jiangdou",
+    "disease_name": "豇豆褐斑病",
+    "disease_code": "jiangdou_hebanbing"
+  },
+  {
+    "crop_name": "豇豆",
+    "crop_code": "jiangdou",
+    "disease_name": "豇豆锈病",
+    "disease_code": "jiangdou_xiubing"
+  },
+  {
+    "crop_name": "水稻",
+    "crop_code": "shuidao",
+    "disease_name": "稻飞虱",
+    "disease_code": "shuidao_daofeishi"
+  },
+  {
+    "crop_name": "水稻",
+    "crop_code": "shuidao",
+    "disease_name": "稻蝗",
+    "disease_code": "shuidao_daohuang"
+  },
+  {
+    "crop_name": "水稻",
+    "crop_code": "shuidao",
+    "disease_name": "稻棘缘蝽",
+    "disease_code": "shuidao_daojiyuanchun"
+  },
+  {
+    "crop_name": "水稻",
+    "crop_code": "shuidao",
+    "disease_name": "稻纵卷叶螟",
+    "disease_code": "shuidao_daozongjuanyeming"
+  },
+  {
+    "crop_name": "水稻",
+    "crop_code": "shuidao",
+    "disease_name": "二化螟",
+    "disease_code": "shuidao_erhuaming"
+  },
+  {
+    "crop_name": "水稻",
+    "crop_code": "shuidao",
+    "disease_name": "水稻大螟",
+    "disease_code": "shuidao_shuidaodaming"
+  },
+  {
+    "crop_name": "玉米",
+    "crop_code": "yumi",
+    "disease_name": "红缘灯蛾",
+    "disease_code": "yumi_hongyuandenge"
+  },
+  {
+    "crop_name": "玉米",
+    "crop_code": "yumi",
+    "disease_name": "玉米叶夜蛾",
+    "disease_code": "yumi_yeyee"
+  },
+  {
+    "crop_name": "玉米",
+    "crop_code": "yumi",
+    "disease_name": "玉米粘虫",
+    "disease_code": "yumi_nianchong"
+  },
+  {
+    "crop_name": "玉米",
+    "crop_code": "yumi",
+    "disease_name": "亚洲玉米螟",
+    "disease_code": "yumi_yazhouyumiming"
+  },
+  {
+    "crop_name": "通用",
+    "crop_code": "common",
+    "disease_name": "草地贪夜蛾",
+    "disease_code": "common_caoditanyee"
+  },
+  {
+    "crop_name": "通用",
+    "crop_code": "common",
+    "disease_name": "飞蝗",
+    "disease_code": "common_feihuang"
+  },
+  {
+    "crop_name": "通用",
+    "crop_code": "common",
+    "disease_name": "草地螟",
+    "disease_code": "common_caodiming"
+  },
+  {
+    "crop_name": "通用",
+    "crop_code": "common",
+    "disease_name": "粘虫",
+    "disease_code": "common_nianchong"
+  },
+  {
+    "crop_name": "小麦",
+    "crop_code": "xiaomai",
+    "disease_name": "小麦蚜虫",
+    "disease_code": "xiaomai_yachong"
+  },
+  {
+    "crop_name": "马铃薯",
+    "crop_code": "malingshu",
+    "disease_name": "马铃薯甲虫",
+    "disease_code": "malingshu_jiachong"
+  },
+  {
+    "crop_name": "苹果",
+    "crop_code": "pingguo",
+    "disease_name": "苹果蠹蛾",
+    "disease_code": "pingguo_due"
+  }
+]
