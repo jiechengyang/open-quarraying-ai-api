@@ -1,6 +1,10 @@
 # 基于aiohttp开发quarrying api 
 
-这是一个使用 aiohttp 构建的 quarrying api,用于植物、昆虫、名人脸识别
+基于quarrying提供的模型实现植物、昆虫、名人脸识别，并使用高性能异步框架 aiohttp搭建api
+
+## 食用人群
+- 有植物、昆虫、名人人脸、通用人像识别等需求的开发者
+- 面向异步 aiohttp开发的初中级开发者，因为这个api是 aiohttp web server 一个比较全面的应用实践（系统集成了数据库连接池、异步消息队列、自定义中间件、动态路由、比较完善的项目启动/停止状态查看命令集、集成docker、集成pyinstaller等）
 
 ## 安装
 
@@ -153,18 +157,21 @@ docker exec -it container_name /bin/bash
 
 ```
 
-
+## 对接业务系统
+ 在上面提到的生成应用授权中，会让使用者设置ai识别结果的hock地址（开发者可以把默认存放在app表中默认授权的result_hock字段内容修改为自己的业务hoc），当获取到识别结果后，系统便会把结果发送给设置的hock地址
 ## 单元测试
   - orm测试：`python -m unittest tests/test_orm`
 ## 已完成功能
 
 - 植物识别
 - 昆虫识别
-- 完成接口签名验证
-- 完成命令生成应用授权信息
+- 接口签名验证
+- 命令生成应用授权信息
 - 创建识别任务接口
+- 识别任务调用接口频率限制（基于每日各授权客户端不同识别任务模型类型限制次数：这部分可自行修改创建接口处验证）
 - 获取识别任务接口
 - 获取识别任务明细接口
+- 
 - docker部署
 - 打包可执行文件
 
@@ -257,6 +264,7 @@ quarrying_ai_api/
 - [采石匠官网](https://www.quarryman.cn/insect)
 ## 站在巨人的肩膀
  - [quarrying](https://github.com/quarrying)
+ - [aiohttp](https://github.com/aio-libs/aiohttp)
  - ...
 
 ## 交流
