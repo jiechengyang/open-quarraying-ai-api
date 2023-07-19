@@ -267,5 +267,6 @@ quarrying_ai_api/
  - [aiohttp](https://github.com/aio-libs/aiohttp)
  - ...
 
-## 交流
- ...
+## 交流学习
+ - 邮箱：2064320087@qq.com
+ - qq:2064320087
